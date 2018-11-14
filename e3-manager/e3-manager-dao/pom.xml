@@ -21,14 +21,40 @@
       <scope>test</scope>
     </dependency>
     
+    <!-- pojo工程的依赖 -->
     <dependency>
     	<groupId>com.fenqing</groupId>
 	    <artifactId>e3-manager-pojo</artifactId>
     </dependency>
     
+    <!-- mybatis依赖 -->
     <dependency>
 	    <groupId>org.mybatis</groupId>
 	    <artifactId>mybatis</artifactId>
+	</dependency>
+	
+	<!-- mysql驱动包 -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	</dependency>
+	
+	<!-- 阿里巴巴数据源 -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>druid</artifactId>
+	</dependency>
+	
+	<!-- mybatis spring整合包 -->
+	<dependency>
+	    <groupId>org.mybatis</groupId>
+	    <artifactId>mybatis-spring</artifactId>
+	</dependency>
+    
+    <!-- spring jdbc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
 	</dependency>
     
   </dependencies>
